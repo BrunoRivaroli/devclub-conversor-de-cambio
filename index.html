@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>FintechConvert</title>
+  </head>
+  <body>
+    <header>
+      <p>FintechConvert</p>
+    </header>
+    <main>
+      <section class="info-section">
+        <h2>Painel de Conversão</h2>
+        <p>Gerencie suas remessas e acompanhe taxas em tempo real.</p>
+      </section>
+      <section class="converted-section">
+        <h1>Conversor de Câmbio</h1>
+        <section class="hero-section">
+          <label class="label-section">
+            <div class="currency-convert-section">
+              <p>De:</p>
+              <select class="currency-convert">
+                <option value="real">R$ Real Brasileiro</option>
+              </select>
+            </div>
+            <div class="currency-converted-section">
+              <p>Para:</p>
+              <select class="currency-converted">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra Esterlina</option>
+              </select>
+            </div>
+          </label>
+            <div class="value-convert-section">
+            <p>Valor</p>
+            <input class="value-convert" type="number" placeholder="R$ 10.0000,00" />
+            </div>
+            <button>Converter </button>
+        </section>
+      <section class="result-section">
+        <div class="result-convert">
+          <img class="currency-img-convert" src="./assets/br.svg" alt="flag-convert" />
+          <p class="currency-value-convert">R$ 0,00</p>
+          <p>Real</p>
+        </div>
+        <img src="./assets/converted.png" alt="simbol-converted" class="img-convert" />
+        <div class="result-converted">
+          <img class="currency-img-converted" src="./assets/us.svg" alt="flag-converted" />
+          <p class = "currency-value-converted">$0.00</p>
+          <p class = "currency-name">Dólar Americano</p>
+        </div>
+      </section>
+    </main>
+  </body>
+   <script src="./script.js"></script>
+</html>
