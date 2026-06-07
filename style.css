@@ -138,3 +138,43 @@ p {
   width: 168px;
   background-color: transparent;
 }
+
+@media screen and (max-width:800px) {
+
+  .info-section {
+    display: none;
+  }
+
+  main {
+    width: 100vw;
+    padding: 16px;
+    margin-top: 50px;
+  }
+
+  .converted-section {
+    width: 100%;
+  }
+
+  .label-section {
+    flex-direction: column;
+  }
+
+  .currency-convert-section,
+  .currency-converted-section,
+  button {
+    width: 100%;
+  }
+
+  .result-section div {
+    width: 80%;
+  }
+
+  .result-section p {
+    font-size: 12px;
+  }
+
+  .img-convert {
+    width: 30%;
+    height: auto;
+  }
+}
