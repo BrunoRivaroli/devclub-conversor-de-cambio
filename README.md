@@ -17,7 +17,7 @@ Conversor de Câmbio é uma aplicação útil e prática que permite converter v
 
 - **HTML5** - Estrutura semântica
 - **CSS3** - Estilização e layout responsivo
-- **JavaScript** - Lógica de conversão e interatividade
+- **JavaScript** - Lógica de conversão e interatividade e conexão com API externa.
 
 ## 📁 Estrutura do Projeto
 
@@ -49,9 +49,9 @@ git clone https://github.com/BrunoRivaroli/devclub-conversor-de-cambio.git
 
 ### Como Usar a Aplicação
 
-2. **Selecione a moeda de destino** no segundo dropdown
-3. **Digite o valor** que deseja converter
-4. **Veja o resultado** da conversão instantaneamente
+1. **Selecione a moeda de destino** no segundo dropdown
+2. **Digite o valor** que deseja converter
+3. **Veja o resultado** da conversão instantaneamente
 
 ## 🎯 Funcionalidades Principais
 
@@ -59,6 +59,7 @@ git clone https://github.com/BrunoRivaroli/devclub-conversor-de-cambio.git
 - **Inversão Rápida** - Troque as moedas com um clique
 - **Interface Intuitiva** - Fácil de usar para qualquer pessoa
 - **Formatação de Valores** - Exibição clara dos valores
+- **Conexão com API** - Cotações atualizadas automaticamente. 
 
 ## 💡 Aprendizados
 
@@ -70,6 +71,7 @@ Este projeto consolidou conhecimentos em:
 - Layout responsivo com CSS Flexbox/Grid
 - Boas práticas de desenvolvimento frontend
 - Tratamento de eventos de usuário
+- Conxão com API Externa
 
 ## 🔧 Moedas Suportadas
 
