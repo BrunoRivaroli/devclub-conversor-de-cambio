@@ -3,14 +3,18 @@ const convertButton = document.querySelector("button")
 const convertedSelect = document.querySelector(".currency-converted")
 const convertSelect = document.querySelector(".currency-convert")
 
-const valueDolar = 5.18
-const valueEuro = 5.96
-const valueLibra = 6.88
 
-function converter() {
+
+async function converter() {
   const valueConvert = document.querySelector(".value-convert").value
   const currencyValueConverted = document.querySelector(".currency-value-converted")
   const currencyValue = document.querySelector(".currency-value-convert")
+
+  const data = await fetch("https://economia.awesomeapi.com.br/last/GBP-BRL,USD-BRL,EUR-BRL").then(response => response.json())
+
+  const valueDolar = data.USDBRL.bid
+  const valueEuro = data.EURBRL.bid
+  const valueLibra = data.GBPBRL.bid
 
   currencyValue.innerHTML = new Intl.NumberFormat(
     "pt-BR", { style: "currency", currency: "BRL" }).format(
